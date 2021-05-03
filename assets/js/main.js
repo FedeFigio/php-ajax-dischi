@@ -52,6 +52,7 @@ let app = new Vue({
     mounted() {
         axios.get("http://localhost/63/esercizi/php-ajax-dischi/db.php")
             .then((response) => {
+                console.log(response.data);
                 this.disks = response.data
 
                 this.disks.sort((a, b) => {

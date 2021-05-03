@@ -1,5 +1,5 @@
 <?php
-include __DIR__."./dati.php";
+include __DIR__."/dati.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
