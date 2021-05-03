@@ -50,7 +50,7 @@ let app = new Vue({
         },
     },
     mounted() {
-        axios.get("http://localhost/63/esercizi/php-ajax-dischi/db.php")
+        axios.get("./db.php")
             .then((response) => {
                 console.log(response.data);
                 this.disks = response.data
